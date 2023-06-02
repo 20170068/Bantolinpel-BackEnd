@@ -24,5 +24,5 @@ Route::group([
 ], function ($router) {
     Route::post('/login', [AuthController::class, 'login']);
     Route::post('/logout', [AuthController::class, 'logout']);
-    Route::get('/user-profile', [AuthController::class, 'userProfile']);    
+    Route::get('/userinfo', [AuthController::class, 'userProfile']);    
 });
